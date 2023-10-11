@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Tic-Tac-Toe</h1>
+  <div id="tic-tac-toe-board">
+    <div class="row">
+      <div class="cell" onclick="makeMove(this)"></div>
+      <div class="cell" onclick="makeMove(this)"></div>
+      <div class="cell" onclick="makeMove(this)"></div>
+    </div>
+    <div class="row">
+      <div class="cell" onclick="makeMove(this)"></div>
+      <div class="cell" onclick="makeMove(this)"></div>
+      <div class="cell" onclick="makeMove(this)"></div>
+    </div>
+    <div class="row">
+      <div class="cell" onclick="makeMove(this)"></div>
+      <div class="cell" onclick="makeMove(this)"></div>
+      <div class="cell" onclick="makeMove(this)"></div>
+    </div>
+  </div>
+  <button id="reset-button" onclick="resetBoard()">Reset</button>
+  <p id="winner-text"></p>
+  <script src="script.js"></script>
+</body>
+</html>
